@@ -9,8 +9,8 @@
       "Rahman97097 ": "pm2 start . --deep-monitoring --attach --name Rahman97097 || node .",
       "start": "pm2 start . --attach --name Rahman97097",
       "stop": "pm2 stop Rahman97097",
-      "heroku-postbuild": "git clone https://github.com/Rahman97097/EVIL-MD-V2.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "git clone https://github.com/Rahman97097/EVIL-MD-V2.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "heroku-postbuild": "git clone https://github.com/HyHamza/BYTE-MD-VU.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "fis-heroku-postbuild": "git clone https://github.com/HyHamza/BYTE-MD-VU.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
    "author": "Dark Evil",
@@ -75,10 +75,10 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/Rahman97097/EVIL-MD-V2.git"
+      "url": "git+https://github.com/HyHamza/BYTE-MD-VU.git"
    },
    "bugs": {
-      "url": "https://github.com/Rahman97097/EVIL-MD-V2/issues"
+      "url": "https://github.com/HyHamza/BYTE-MD-VU/issues"
    },
-   "homepage": "https://github.com/Rahman97097/EVIL-MD-V2#readme"
+   "homepage": "https://github.com/HyHamza/BYTE-MD-VU#readme"
 }
